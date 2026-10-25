@@ -1,0 +1,46 @@
+.game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 42px;
+    margin-left: 570px;
+}
+.game1 {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    gap: 150px;
+}
+.headername {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(3, 3, 3);
+}
+.gametitle {
+    text-align: center; 
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    color:gray;
+    margin-right: 55px;
+}
+.nav-links a {
+    text-decoration: none;
+    list-style-type: none;
+    color:rgb(46, 196, 166);
+}
+.nav-links li {
+    text-decoration: none;
+    list-style-type: none;
+    color:gray;
+}
+.nav-links li:hover {
+    color: black;
+}
